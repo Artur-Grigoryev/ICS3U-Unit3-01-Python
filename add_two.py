@@ -12,8 +12,9 @@ def main():
     # User input
     sum = number1 + number2
     # Process
-    print("The sum of your two numbers is: {}".format(sum))
+    print("The sum of your two numbers is: {0}+{1}={2}".format(number1, number2, sum))
 
 
 if __name__ == "__main__":
-    main()
+    main() 
+    
